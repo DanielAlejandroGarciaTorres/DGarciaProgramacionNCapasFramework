@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="067929b30b0b4be0bc0d308e4f02805b" Name="Diagram1" ZoomLevel="73">
+        <EntityTypeShape EntityType="DGarciaProgramacionNCapasModel.Colonia" Width="1.5" PointX="8" PointY="2" />
+        <EntityTypeShape EntityType="DGarciaProgramacionNCapasModel.Direccion" Width="1.5" PointX="5.25" PointY="1.75" />
+        <EntityTypeShape EntityType="DGarciaProgramacionNCapasModel.Estado" Width="1.5" PointX="12.75" PointY="2.25" />
+        <EntityTypeShape EntityType="DGarciaProgramacionNCapasModel.Municipio" Width="1.5" PointX="10.375" PointY="2.125" />
+        <EntityTypeShape EntityType="DGarciaProgramacionNCapasModel.Pai" Width="1.5" PointX="15.125" PointY="2.375" />
+        <EntityTypeShape EntityType="DGarciaProgramacionNCapasModel.Rol" Width="1.5" PointX="0.75" PointY="2.25" />
+        <EntityTypeShape EntityType="DGarciaProgramacionNCapasModel.Usuario" Width="1.5" PointX="3" PointY="1" />
+        <AssociationConnector Association="DGarciaProgramacionNCapasModel.FK__Colonia__IdMunic__403A8C7D" />
+        <AssociationConnector Association="DGarciaProgramacionNCapasModel.FK__Direccion__IdCol__4316F928" />
+        <AssociationConnector Association="DGarciaProgramacionNCapasModel.FK__Direccion__IdUsu__440B1D61" />
+        <AssociationConnector Association="DGarciaProgramacionNCapasModel.FK__Estado__IdPais__3A81B327" />
+        <AssociationConnector Association="DGarciaProgramacionNCapasModel.FK__Municipio__IdEst__3D5E1FD2" />
+        <AssociationConnector Association="DGarciaProgramacionNCapasModel.FK__Usuario__IdRol__35BCFE0A" />
+        <EntityTypeShape EntityType="DGarciaProgramacionNCapasModel.Area" Width="1.5" PointX="5.375" PointY="6.625" />
+        <EntityTypeShape EntityType="DGarciaProgramacionNCapasModel.Departamento" Width="1.5" PointX="7.625" PointY="6.5" />
+        <EntityTypeShape EntityType="DGarciaProgramacionNCapasModel.Producto" Width="1.5" PointX="9.875" PointY="6" />
+        <EntityTypeShape EntityType="DGarciaProgramacionNCapasModel.Proveedor" Width="1.5" PointX="7.625" PointY="9.5" />
+        <AssociationConnector Association="DGarciaProgramacionNCapasModel.FK__Departame__IdAre__4BAC3F29" />
+        <AssociationConnector Association="DGarciaProgramacionNCapasModel.FK__Producto__IdDepa__5165187F" />
+        <AssociationConnector Association="DGarciaProgramacionNCapasModel.FK__Producto__IdProv__5070F446" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
